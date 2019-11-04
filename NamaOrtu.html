@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>NamaOrtu</title>
+        <link rel="shortcut icon" type="image/x-icon" href="zimardie.png">
+        <link rel="stylesheet" type="text/css" href="rupa.css">
+        <link href="https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="protection" style="">
+            <div id="headerlogin">
+             <p id="asu">Perusak Persahabatan (NamaOrtu)</p>
+            </div>
+            <div id="isipassword">
+             <p>Enter Password:</p>
+             <input type="password" id="startcode" value="">
+             <input id="pantat" type="button" value="Login" onclick="validate()">
+             <input type="button" id="bout" value="About" onclick="about()">
+             <br \>
+             <p id="hint" style="display:none;">*Password Hint: The Inspiration of this program</p>
+            </div>
+        </div>
+        <div id="mangisi" style="display:none;">
+        <header>
+            <p style="font-size:30px;">Perusak Persahabatan (NamaOrtu)</p>
+        </header>
+        <div id="navigasi" style="border:1px solid black;padding:3px;">
+            <nav>
+            <p id="haha" style="display:none;">You're logged in to the program  </p>
+            <p id="tanda" style="padding:0;margin:0;">Welcome, User!</p>
+            <br \>
+            <input type="button" id="prit" value="Mulai Program!" onclick="start()">
+            <input type="button" onclick="about()" value="About">
+            <input type="button" value="Logout" onclick="logout()">
+            </nav>
+        </div>
+        <div id="eusi" style="display:none;">
+            <table>
+                <tr>
+                    <td><p>Siapa Nama Anaknya:</p></td>
+                    <td><input type="text" id="inputnya" value=""></td>
+                    <td><input type="button" id="asw" onclick="nama_ortu()" value="Cari!"></td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <div id="window_answer" style="display:none;">
+                            <p>Nama orang tua dari <span id="child"></span> adalah:</p>
+                            <p>Nama Ibu: <span id="mother"></span></p>
+                            <p>Nama Ayah: <span id="daddy"></span></p>
+                            <input type="button" onclick="reset()" value="Reset">
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <footer>
+            <center>
+                <p>Copyright 2019</p>
+            </center>
+        </footer>
+        </div>
+    </body>
+    <script src="js.js"></script>
+</html>

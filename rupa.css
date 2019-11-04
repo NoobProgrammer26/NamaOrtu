@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei&display=swap');
+
+html {
+    font-size:15px;
+    background-image:url(login.jpg)
+}
+
+body {
+    background-color:white;
+}
+
+#protection {
+    border:3px solid black;
+}
+#isipassword{
+    padding:10px;
+    padding-bottom:15px;
+    border:solid 1px;
+    font-size:15px;
+    box-align:center;
+    text-align:center;
+    background-size: cover;
+}
+
+#headerlogin {
+    padding:10px;
+    text-align:center;
+    font-size:20px;
+    font-weight:bolder;
+    border:solid 1px;
+    box-align:center;
+}
+
+#asu {
+    font-size:22px;
+}
+
+header {
+    text-align:center;
+    font-size:20px;
+    padding:0;
+    font-weight: bolder;
+    border:solid 2px black;
+    font-family: 'ZCOOL XiaoWei', serif;
+}
+footer {
+    text-align:center;
+    font-size:17px;
+    padding:0;
+    font-weight: bolder;
+    border:solid 2px black;
+    font-family: 'ZCOOL XiaoWei', serif;
+}
+#mangisi{
+    border:solid 3px black;
+    font-family: 'ZCOOL XiaoWei', serif;
+}
+
+input{
+    font-family: 'ZCOOL XiaoWei', serif;
+}
+#navigasi {
+    padding:12px;
+}
+
+#eusi {
+    padding:5px;
+}
+
+#window_answer {
+    padding:5px;
+    border:3px solid black;
+    font-weight:bolder;
+    font-size:15px;
+    font-family: 'ZCOOL XiaoWei', serif;
+}
